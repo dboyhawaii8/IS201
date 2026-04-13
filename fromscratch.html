@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surfing From Scratch</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+<link rel="stylesheet" href="../css/mystyles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#maincontent">Skip to main content</a>
+
+  <div class="page-wrapper">
+    <header class="hero" id="top">
+      <div class="overlay-box">
+        <h1>Why Surfing Fascinates Me</h1>
+        <p class="intro-text">
+          Surfing combines balance, patience, athleticism, and a connection with the ocean.
+          I like it because it is both exciting and peaceful.
+        </p>
+
+        <nav class="top-nav">
+          <a href="#about">About Surfing</a>
+          <a href="#image">Waikiki Surf</a>
+          <a href="#video">North Shore Sandbar</a>
+          <a href="#graph">Tableau Graph</a>
+          <a href="index.html">Go to Professional Page</a>
+          <a href="../game.html">Snake Game</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="maincontent" class="main-content">
+      <section class="content-box" id="about">
+        <div class="section-inner">
+          <h2>What Makes Surfing So Interesting</h2>
+          <p>
+            Surfing is more than just a sport. It requires timing, wave awareness, and confidence.
+            It also gives people a chance to enjoy nature and improve their skills.
+          </p>
+
+          <ol class="custom-list">
+            <li>
+              Skills Surfers Need
+              <ul>
+                <li>Balance on the board</li>
+                <li>Timing and wave reading</li>
+                <li>Strong paddling ability</li>
+              </ul>
+            </li>
+            <li>
+              Things People Enjoy About Surfing
+              <ul>
+                <li>Being in nature</li>
+                <li>The excitement of catching a wave</li>
+                <li>The surfing lifestyle and community</li>
+              </ul>
+            </li>
+            <li>
+              Places Known for Surfing
+              <ul>
+                <li>Hawaii</li>
+                <li>California</li>
+                <li>Australia</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="image-box" id="image">
+        <div class="text-panel">
+          <h2>Surfing at Waikiki</h2>
+          <p>
+            Surfing at Waikiki is popular because the waves are usually gentle and consistent, which makes it a great place for beginners to practice and learn the basics.
+          </p>
+        </div>
+
+        <div class="photo-panel">
+          <img
+            src="assets/img/chinas.JPEG"
+            alt="Image from local project folder"
+            width="900"
+            height="600"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section class="content-box" id="video">
+        <div class="section-inner">
+          <h2>North Shore Sandbar Video</h2>
+          
+
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/ho4u8Y5vXyw"
+              title="Surfing YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-box" id="graph">
+        <div class="section-inner">
+          <h2>Interactive Tableau Graph</h2>
+        
+
+          <div class="tableauPlaceholder" id="tableauViz" style="position: relative;">
+            <noscript>
+              <a
+                href="https://public.tableau.com/views/RegionalSampleWorkbook/Stocks"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  alt="Tableau visualization preview"
+                  src="https://public.tableau.com/static/images/Re/RegionalSampleWorkbook/Stocks/1.png"
+                  style="border: none"
+                />
+              </a>
+            </noscript>
+
+            <object class="tableauViz" style="display: none;">
+              <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+              <param name="embed_code_version" value="3" />
+              <param name="site_root" value="" />
+              <param name="name" value="RegionalSampleWorkbook/Stocks" />
+              <param name="tabs" value="no" />
+              <param name="toolbar" value="yes" />
+              <param
+                name="static_image"
+                value="https://public.tableau.com/static/images/Re/RegionalSampleWorkbook/Stocks/1.png"
+              />
+              <param name="animate_transition" value="yes" />
+              <param name="display_static_image" value="yes" />
+              <param name="display_spinner" value="yes" />
+              <param name="display_overlay" value="yes" />
+              <param name="display_count" value="yes" />
+              <param name="language" value="en-US" />
+            </object>
+          </div>
+        </div>
+
+        <script type="text/javascript">
+          var divElement = document.getElementById("tableauViz");
+          var vizElement = divElement.getElementsByTagName("object")[0];
+          vizElement.style.width = "100%";
+          vizElement.style.height = "820px";
+          var scriptElement = document.createElement("script");
+          scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </section>
+    </main>
+
+    <footer class="footer-box">
+      <div class="footer-inner">
+        <a class="button-link" href="#top">Back to Top</a>
+        <a class="button-link secondary-button" href="index.html">Go to Professional Page</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
